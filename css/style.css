@@ -17,7 +17,6 @@ body {
   color: white;
   height: 100%;
   font-family: "Amatic SC", cursive;
-  text-decoration: none;
   margin: 0;
 }
 
@@ -30,13 +29,18 @@ html {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: purple;
+}
+
 #logoviiixe {
   border: 5px solid rgb(207, 213, 222);
   border-radius: 50%;
   width: 150px;
   box-shadow: 3px 3px 110px white;
   margin-top: 20px;
-  animation:slideInDown;
+  animation: slideInDown;
   animation-duration: 2s;
 }
 
@@ -48,8 +52,10 @@ html {
   color: black;
   font-size: 30px;
   margin-top: 40px;
+  max-width: 60%;
+  margin: 50px auto;
   list-style: none;
-  text-decoration: none;
+  color: purple;
   text-align: center;
   animation: flipInX;
   animation-duration: 2s;
@@ -60,23 +66,32 @@ html {
   border-radius: 50px;
   margin-bottom: 30px;
   margin-left: -40px;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-  ); }
-  
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
 .ingressos {
   box-shadow: 3px 3px 3px white;
-
 }
+
 .footer {
   font-weight: 600;
   font-size: 18px;
   color: white;
-  background: rgb(63,94,251);
-background: radial-gradient(circle, rgba(63,94,251,1) 15%, rgba(169,81,170,1) 47%, rgba(70,89,252,1) 72%);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 15%,
+    rgba(169, 81, 170, 1) 47%,
+    rgba(70, 89, 252, 1) 72%
+  );
   text-align: center;
-  margin-top: 118px;
+  margin-top: 105px;
   padding: 10px 0;
-  animation:zoomIn;
+  animation: zoomIn;
   animation-duration: 2s;
 }
