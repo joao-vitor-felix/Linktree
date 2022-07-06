@@ -1,0 +1,82 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  /* background-image: url(https://folhadealagoas.com.br/wp-content/uploads/2022/03/viiixe-forro-e-piseiro-saiba-quais-sao-as-cidades-com-venda-de-ingressos-liberada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(103, 103, 180, 1) 53%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  height: 100%;
+  font-family: "Amatic SC", cursive;
+  text-decoration: none;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#logoviiixe {
+  border: 5px solid rgb(207, 213, 222);
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 3px 3px 110px white;
+  margin-top: 20px;
+  animation:slideInDown;
+  animation-duration: 2s;
+}
+
+.logo {
+  text-align: center;
+}
+
+.linktree {
+  color: black;
+  font-size: 30px;
+  margin-top: 40px;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  animation: flipInX;
+  animation-duration: 2s;
+}
+
+.borda {
+  border: 5px hidden white;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-left: -40px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  ); }
+  
+.ingressos {
+  box-shadow: 3px 3px 3px white;
+
+}
+.footer {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 15%, rgba(169,81,170,1) 47%, rgba(70,89,252,1) 72%);
+  text-align: center;
+  margin-top: 118px;
+  padding: 10px 0;
+  animation:zoomIn;
+  animation-duration: 2s;
+}
